@@ -1,0 +1,110 @@
+/* colors */
+/* #000000 - black
+#303030 - dark
+#FFE3F1 - Lilac
+#00C9C8 - Sea Green */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*header*/
+header nav{
+ display: flex;
+ justify-content: space-between;
+ padding: 30px;
+ align-items: center;
+ background-color: #833d60de;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.brand {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.hero{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.472);
+    color: white;
+    background-image: url(./images/anders-jilden-AkUR27wtaxs-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+    /* background-blend-mode: multiply; */
+
+}
+.hero a{
+    color: white;
+    padding: 10px 15px;
+    display: block;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #00c9c8;
+}
+/* footer */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #833d60de;
+    margin: 10px 0px;
+}
+/* products styles*/
+.product-section{
+    background-color: grey;
+    padding: 10px 20px 5px 50px;
+
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+}
+.product {
+    background-color: white;
+    padding: 10px;
+    line-height: 2rem;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, .5);
+
+
+}
+.product img {
+    min-width: 30%; 
+}
+/* Form Styles */
+form{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-color: grey;
+        padding: 10px 20px 5px 50px;
+
+     }
+     form input {
+        font-size: 24px;
+        padding: .5em;
+        border-radius: 5px;
+        border: none;
+        margin-bottom: 20px;
+     }
+     form h2, form lbl{
+        margin-bottom: 10px;
+    }
+     
